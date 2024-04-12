@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "rules": {
+      "react/jsx-filename-extension": [1, { "extensions": ["", ".js", ".jsx", ".ts", ".tsx"] }],
+      "use": {
+        "loader": "babel-loader",
+        "options": {
+          "presets": ["@babel/preset-react", "@babel/preset-env"],
+        },
+      },
+  },
+}
